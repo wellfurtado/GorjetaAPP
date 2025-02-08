@@ -14,8 +14,9 @@ Este é um **aplicativo simples** desenvolvido em **Kotlin** como um projeto de 
 ---
 
 ## 🖼️ Demonstração  
-
-*(Adicione capturas de tela do aplicativo aqui)*  
+<img src="https://github.com/user-attachments/assets/b6ff54a7-bbc2-4db4-81d2-c942e0b75414" width="200" alt="Imagem do app"/>
+<img src="https://github.com/user-attachments/assets/397c1cb6-94c2-4578-8344-8e89fc97e45a" width="200" alt="Imagem do app"/>
+<img src="https://github.com/user-attachments/assets/400e4a59-3934-4a03-ae23-698d7e8a1c72" width="200" alt="Imagem do app"/>
 
 ---
 
