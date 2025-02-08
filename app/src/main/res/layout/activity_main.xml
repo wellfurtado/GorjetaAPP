@@ -11,8 +11,9 @@
         android:id="@+id/tv_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:text="Tips Calculator"
+        android:layout_marginTop="35dp"
+        android:text="Gorjeta APP"
+        android:textAlignment="center"
         android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,6 +37,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_subtitle">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tie_total"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Digite o valor total da conta"
@@ -54,6 +56,7 @@
         app:layout_constraintTop_toBottomOf="@+id/til_total">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tie_num_peaple"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:maxLength="2"
@@ -121,5 +124,17 @@
         app:layout_constraintEnd_toEndOf="@+id/rg_percent"
         app:layout_constraintStart_toStartOf="@+id/vertical_guideline"
         app:layout_constraintTop_toBottomOf="@+id/rg_percent" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="57.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_clean" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
